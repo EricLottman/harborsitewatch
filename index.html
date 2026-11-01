@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harbor Site Watch — Website Security Audits &amp; Monitoring</title>
+<meta name="description" content="Harbor Site Watch provides website security audits and ongoing monitoring for small businesses on Long Island, NY.">
+<style>
+  :root {
+    --navy: #12314e;
+    --teal: #177e7a;
+    --ink: #1c2733;
+    --muted: #5a6a78;
+    --bg: #f6f8fa;
+    --card: #ffffff;
+    --line: #dde5ec;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--navy);
+    color: #fff;
+    padding: 56px 24px 44px;
+    text-align: center;
+  }
+  header h1 { font-size: 2.4rem; letter-spacing: 0.5px; margin-bottom: 10px; }
+  header p { font-size: 1.12rem; color: #cfdde9; max-width: 640px; margin: 0 auto; }
+  main { max-width: 860px; margin: 0 auto; padding: 40px 24px 16px; }
+  section { margin-bottom: 40px; }
+  h2 { color: var(--navy); font-size: 1.45rem; margin-bottom: 14px; }
+  p.intro { font-size: 1.05rem; color: var(--ink); max-width: 720px; }
+  .cards { display: grid; grid-template-columns: 1fr; gap: 18px; }
+  @media (min-width: 720px) { .cards { grid-template-columns: 1fr 1fr 1fr; } }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 20px;
+  }
+  .card h3 { color: var(--navy); font-size: 1.12rem; margin-bottom: 8px; }
+  .card p { color: var(--muted); font-size: 0.96rem; margin-bottom: 12px; }
+  .price { color: var(--teal); font-weight: 700; font-size: 1.02rem; }
+  .price small { color: var(--muted); font-weight: 400; }
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 26px 24px;
+    text-align: center;
+  }
+  .contact a { color: var(--teal); font-weight: 700; text-decoration: none; font-size: 1.1rem; }
+  .contact a:hover { text-decoration: underline; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 18px 24px 42px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Harbor Site Watch</h1>
+  <p>Website security audits and ongoing monitoring for small businesses on Long Island, New York.</p>
+</header>
+<main>
+  <section>
+    <h2>What We Do</h2>
+    <p class="intro">
+      Harbor Site Watch checks small-business websites for the security and configuration
+      problems that are easy to miss and expensive to ignore — outdated software, missing
+      email protections such as DMARC, and common misconfigurations that leave a site open
+      to attack or make business email look like spam. Every audit ends with a written report
+      that ranks each fix by urgency, in plain language, so you know exactly what matters
+      and what can wait.
+    </p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Website Security Audit</h3>
+        <p>A one-time review of your website's security and configuration, with a written
+           report and fixes ranked by urgency.</p>
+        <p class="price">$199 <small>pilot</small> · $499 <small>standard</small></p>
+      </div>
+      <div class="card">
+        <h3>DMARC Setup &amp; Fix</h3>
+        <p>We set up or repair the email protections (DMARC, SPF, DKIM) that stop scammers
+           from sending fake email that looks like it came from your business.</p>
+        <p class="price">$149 <small>one-time</small></p>
+      </div>
+      <div class="card">
+        <h3>Website Watch</h3>
+        <p>Ongoing monthly monitoring of your site's security and configuration, so new
+           problems are caught early instead of after something breaks.</p>
+        <p class="price">$19/mo <small>founding rate</small> · $29 <small>standard</small></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contact">
+      <h2>Contact</h2>
+      <p style="color: var(--muted); margin-bottom: 8px;">Questions or ready for an audit? Email us:</p>
+      <a href="mailto:harborsitewatch@gmail.com">harborsitewatch@gmail.com</a>
+    </div>
+  </section>
+</main>
+<footer>
+  Harbor Site Watch · Long Island, New York
+</footer>
+</body>
+</html>
